@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    .main{
+        width: 100%;
+        background: linear-gradient(to top, rgba(189, 188, 188, 0.575)50%, rgba(189, 188, 188, 0.575)50%), url(6.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 109vh;
+    }
+    
+    .navbar{
+        width: 1200px;
+        height: 75px; 
+        margin: auto;
+    }
+    
+    .icon{
+        width: 200px; 
+        float: left;
+        height: 70px;
+    }
+    
+    .logo{
+        color: red; 
+        font-size: 35px;
+        font-family: Arial;
+        padding-left: 10px;
+        float: left;
+        padding-top: 20px;
+    }
+    
+    .menu{
+        width: 400px;
+        float: left;
+        height: 80px;
+    }
+
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    
+    ul li{
+        list-style: none;
+        margin-left: 60px;
+        margin-top: 25px;
+        font-size: 15px;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+
+ul li a span{
+    color: red;
+}
+
+.appointment-form{
+    width: 350px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%); 
+    position: relative;
+    bottom: -100px;
+    left: 550px;
+    color: white; 
+    border-radius: 20px;
+    padding: 30px;
+    padding-right: 10px;
+}
+
+.form-group{
+    padding: 20px;
+}
+
+.form-span{
+    padding-left: 100px;
+    padding-top: 20px;
+    
+}
+
+.form-name{
+    margin-left: 28px;
+    border-radius: 8px;
+    height: 20px;
+
+}
+
+.form-email{
+    margin-left: 58px;
+    border-radius: 8px;
+    height: 20px;
+}
+
+.form-date{
+    border-radius: 8px;
+    height: 20px;
+}
+.form-time{
+    border-radius: 8px;
+    height: 20px;
+}
+.form-phone{
+    border-radius: 8px;
+    height: 20px;
+}
+
+
+.form-message{
+    padding: 8px;
+    margin-left: 43px;
+    border-radius: 8px;
+    height: 20px;
+}
+
+.btn{
+    padding:10px;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s ease;
+}

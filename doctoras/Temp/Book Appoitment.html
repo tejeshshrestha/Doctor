@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Doctor Appointment</title>
+        <link rel="stylesheet" href="BookAppointment.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="'icon">
+                    <h2 class="logo">Doctor AS</h2>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#"><span>BOOK APPOINTMENT</span></a></li>
+                        <li><a href="#">VIEW APPOINTMENT</a></li>
+                        <li><a href="#">CANCEL BOOKING</a></li>
+                        <li><a href="#">FEEDBACK</a></li>
+                        <li><a href="#">LOGOUT</a></li>
+                    </ul>
+                </div>
+                <div> 
+                  <h2 class="booking"><u>New Booking!!</u></h2>
+                </div>
+
+                <form class="appointment-form">
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                  </div>  
+                  <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone">
+                  </div>    
+                  <div class="form-group">
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date" required>
+                    <label for="time">Time:</label>
+                    <input type="time" name="time" id="time" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Problem:</label>
+                    <textarea name="message" id="message"></textarea>
+                  </div>  
+
+                  <button type="submit"><span>Book Appointment</span></button>
+                </form>

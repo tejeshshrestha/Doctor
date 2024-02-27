@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    .main1{
+        width: 100%;
+        background: linear-gradient(to top, rgba(189, 188, 188, 0.575)50%, rgba(189, 188, 188, 0.575)50%), url(6.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 109vh;
+    }
+    
+    .navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+    }
+    
+    .icon{
+        width: 200px;
+        float: left;
+        height: 70px;
+    }
+    
+    .logo{
+        color: red;
+        font-size: 35px;
+        font-family: Arial;
+        padding-left: 10px;
+        float: left;
+        padding-top: 20px;
+    }
+    
+    .menu{
+        width: 400px;
+        float: left;
+        height: 80px;
+    }
+
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    
+    ul li{
+        list-style: none;
+        margin-left: 60px;
+        margin-top: 25px;
+        font-size: 15px;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+
+ul li a span{
+    color: red;
+}
+
+.appointment-form{
+    width: 350px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%); 
+    position: relative;
+    bottom: -50px;
+    left: 400px;
+    color: white; 
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.form-group{
+    padding: 20px;
+}
+
+.booking{
+    padding-top: 150px;
+    margin-left: 540px;
+    color: red;
+}
